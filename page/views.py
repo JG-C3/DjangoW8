@@ -91,9 +91,4 @@ def posting_delete(request, posting_id):
 # [Delete] 댓글 삭제
 def comment_delete(request, posting_id, comment_id):
     if request.method == 'POST':
-        # [코드 작성] get_object_or_404를 이용해 Comment 모델에서 comment_id에 해당하는 객체 불러오기
-        
-        # [코드 작성] comment 삭제하기
-        
-        # [코드 추가] posting_id에 해당하는 페이지로 redirect
         return 
